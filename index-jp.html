@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Family Beach Fit ブートキャンプ</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="navbar">
-        <img src="images/logo.png" alt="Family Beach Fit ロゴ" class="logo" />
+        <div class="logo-wrapper">
+          <img src="fbf-logo.png" alt="Family Beach Fit ロゴ" class="logo" />
+        </div>
         <a class="lang-switch" href="index.html">English</a>
       </div>
       <h1>Family Beach Fit</h1>
@@ -21,55 +27,66 @@
       <h2>概要</h2>
       <p>
         Family Beach
-        Fitは、単なるブートキャンプではなく、変化を追求するコミュニティです。カリフォルニア出身で元メンズフィジーク競技者のKevin
-        Brownが設立。身体的な変化だけでなく、精神的・内面的な成長をサポートします。SNSによる比較ではなく、家族や仕事、自分のための健康を目指します。
+        Fitは、単なるブートキャンプではなく、変化を追求するコミュニティです。
+        カリフォルニア出身で元メンズフィジーク競技者のKevin Brownが設立。
+        身体的な変化だけでなく、精神的・内面的な成長をサポートします。
+        SNSによる比較ではなく、家族や仕事、自分のための健康を目指します。
       </p>
     </section>
 
-    <section>
+    <section class="services-section">
       <h2>サービス内容</h2>
-      <ul>
-        <li>
-          <strong>全身ブートキャンプサーキット：</strong>
-          バトルロープ、ケトルベル、ダンベル、バンド、体重トレーニングを使った高強度のサーキット。
-        </li>
-        <li>
-          <strong>バトルロープ集中セッション：</strong>
-          パワースラムやウェーブなど、30〜45分の持久力＆筋力向上トレーニング。
-        </li>
-        <li>
-          <strong>初心者〜上級者ロープ指導：</strong>
-          正しいフォーム、複合コンボ、安全対策までをカバー。
-        </li>
-        <li>
-          <strong>パートナー＆グループチャレンジ：</strong>
-          チーム戦、リレー、タイムドリルなどの楽しいゲーム形式。
-        </li>
-        <li>
-          <strong>HIIT + ロープフュージョン：</strong>
-          ロープ×スプリント×コアで脂肪燃焼。
-        </li>
-        <li>
-          <strong>キッズ＆ティーンズクラス：</strong>
-          年齢に応じた楽しいサーキットで協調性と基礎体力を育成。
-        </li>
-        <li>
-          <strong>ビーチサーキットブートキャンプ：</strong>
-          砂浜での全身運動＋ストレッチ・モビリティトレーニング。
-        </li>
-        <li>
-          <strong>パーソナルトレーニング：</strong>
-          個別目標に応じたロープ＆サーキット指導。
-        </li>
-        <li>
-          <strong>企業向けウェルネスサーキット：</strong>
-          チームワーク・モチベーション向上のための社内トレーニング。
-        </li>
-        <li>
-          <strong>月例チャレンジ＆イベント：</strong>
-          障害物レース、コンテスト、報酬付きチャレンジで継続をサポート。
-        </li>
-      </ul>
+      <div class="card-grid">
+        <div class="service-card">
+          <h3>グループ・ブートキャンプ</h3>
+          <ul>
+            <li>全身サーキットトレーニング</li>
+            <li>ビーチブートキャンプ（砂浜での屋外トレーニング）</li>
+            <li>キッズ＆ティーンズクラス（協調性と基礎体力）</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <h3>バトルロープ・トレーニング</h3>
+          <ul>
+            <li>バトルロープ集中セッション（パワー、ドリル、ウェーブ）</li>
+            <li>ロープ指導（フォーム、テクニック、コンボ）</li>
+            <li>グループチャレンジ（リレーやチームワーク）</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <h3>パーソナル & 企業トレーニング</h3>
+          <ul>
+            <li>マンツーマンの個別トレーニング</li>
+            <li>筋力アップ・減量・パフォーマンス向上</li>
+            <li>企業向けウェルネス・サーキット</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <h3>チャレンジ & イベント</h3>
+          <ul>
+            <li>月例フィットネスチャレンジ</li>
+            <li>ロープ障害物レース</li>
+            <li>楽しく報酬付きのイベント</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Bootcamp Calendar</h2>
+      <div class="calendar-wrapper">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=300&wkst=1&ctz=Asia%2FTokyo&showPrint=0&src=bmVpbGh1bXBocmV5dGVjaEBnbWFpbC5jb20&src=Y2U4MDlhOWFmYWQ1NzFlMDcyYWY1M2MwYzAxYTkyOGVkZGJiM2Q5NzQ3MTk4YjM2OWQ0NDY5YTMwNGFiZDI3MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4uamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039be5&color=%23f4511e&color=%230b8043"
+          style="border: solid 1px #777"
+          width="700"
+          height="500"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
     </section>
 
     <section>
